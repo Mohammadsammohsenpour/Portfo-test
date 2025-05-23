@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Projektgalerie</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet"/>
+  <style>
+    body { font-family: sans-serif; background: #f2f2f2; margin: 0; }
+    section { padding: 2em; background: white; }
+    h2 { color: #003366; }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .project {
+      background: #f9f9f9;
+      border-radius: 6px;
+      padding: 0.5rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .project img {
+      width: 100%;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+<section id="gallery">
+  <h2>Projektgalerie</h2>
+  <div class="gallery-grid">
+    <div class="project">
+      <a href="images/rehabilitation-basin.jpg" data-lightbox="projects" data-title="Sanierung eines Klärbeckens im Recyclingbereich der Raffinerie">
+        <img src="images/rehabilitation-basin.jpg" alt="Sanierung Klärbecken">
+      </a>
+      <p>Sanierung eines Klärbeckens im Recyclingbereich</p>
+    </div>
+    <div class="project">
+      <a href="images/staff_building_supervision.jpg" data-lightbox="projects" data-title="Überwachung des Baus des Betriebsgebäudes der Lagereinheit">
+        <img src="images/staff_building_supervision.jpg" alt="Überwachung Personalgebäude">
+      </a>
+      <p>Betriebsgebäude der Lagereinheit</p>
+    </div>
+    <div class="project">
+      <a href="images/water_pipeline_project.jpg" data-lightbox="projects" data-title="Überwachung des Trinkwasserleitungsprojekts">
+        <img src="images/water_pipeline_project.jpg" alt="Trinkwasserleitung Projekt">
+      </a>
+      <p>Trinkwasserleitungsprojekt</p>
+    </div>
+    <div class="project">
+      <a href="images/image6.jpg" data-lightbox="projects" data-title="Ansicht der Ölraffinerie Bandar Abbas">
+        <img src="images/image6.jpg" alt="Ansicht der Ölraffinerie Bandar Abbas">
+      </a>
+      <p>Ansicht der Ölraffinerie Bandar Abbas</p>
+    </div>
+    <div class="project">
+      <a href="images/image7.jpg" data-lightbox="projects" data-title="Sanierungsprojekt des Klärbeckens in der Wiederaufbereitungseinheit">
+        <img src="images/image7.jpg" alt="Sanierungsprojekt Klärbecken">
+      </a>
+      <p>Sanierungsprojekt des Klärbeckens in der Wiederaufbereitungseinheit</p>
+    </div>
+  </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+</body>
+</html>
